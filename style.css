@@ -773,9 +773,6 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .flex1section2 {
-    flex-direction: row;
-  }
   .flex1section2 img {
     max-width: 100%;
   }
@@ -807,8 +804,8 @@ footer {
   .text1section4 {
     font-size: 1.4rem;
   }
-
-  .flex1section,
+  .flex1section2,
+  .flex1section4,
   .flex2section4,
   .flex1section5,
   .flex1section6,
