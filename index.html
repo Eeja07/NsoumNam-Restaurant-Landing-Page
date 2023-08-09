@@ -5,35 +5,61 @@
     <meta name="Description" content="NSOUMNAM Restourant Landing Page" />
     <meta name="Keywords" content="HTML, CSS" />
     <meta name="Author" content="Mahija Ibad" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>NSUOMNAM</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <a href="#" class="navbar-logo">NSUOMNAM</a>
-      <div class="navbar-nav">
-        <a href="#section2">History</a>
-        <a href="#section4">Menu</a>
-        <a href="#section6">Trim</a>
-        <a href="#section7">Map</a>
-      </div>
-      <div class="navbar-extra">
-        <a class="shoppingcart-navbar" href="#Shopping Cart">Shopping Cart</a>
-        <a class="cartnumber-navbar">0</a>
-        <img src="img/cartcircle.png" class="cartcircle-navbar" />
-      </div>
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-logo"><a href="#section1">NSUOMNAM</a></li>
+        <li class="navbar-nav">
+          <a href="#section2">History</a>
+          <a href="#section4">Menu</a>
+          <a href="#section6">Trim</a>
+          <a href="#section7">Map</a>
+        </li>
+        <li class="navbar-sc">
+          <div class="navbar-container">
+            <a
+              class="navbar-sc-text"
+              href="https://goo.gl/maps/Z4qvWbQgMPnYBWbF8"
+              target="_blank"
+              >Shopping Cart</a
+            >
+            <a class="navbar-sc-number">0</a>
+            <img class="navbar-sc-circle" src="img/cartcircle.png" />
+          </div>
+        </li>
+        <li class="navbar-min">
+          <i class="fa-solid fa-bars" style="color: white"></i>
+        </li>
+        <li class="navbar-close">
+          <i class="fa fa-times" style="color: white"></i>
+        </li>
+      </ul>
     </nav>
     <section id="section1">
       <img src="img/img1.png" class="pict1section1" />
-      <div class="text1section1">
-        <h1>SAVOUR REAL SEAFOOD</h1>
-        <p>
-          With a deep-rooted love for all things seafood, <br />
-          our talented chefs combine culinary expertise <br />
-          with creativity to craft dishes that celebrate <br />
-          the ocean's treasures.
-        </p>
+      <div class="textsection1container">
+        <div class="textsection1">
+          <div class="text1section1">
+            <h1>SAVOUR REAL SEAFOOD</h1>
+          </div>
+          <div class="text2section1">
+            <p>
+              With a deep-rooted love for all things seafood, <br />
+              our talented chefs combine culinary expertise <br />
+              with creativity to craft dishes that celebrate <br />
+              the ocean's treasures.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <section id="section2">
@@ -66,8 +92,10 @@
       </div>
       <div class="flex1section2">
         <img src="img/img2.png" class="pict1section2" />
-        <img src="img/img3.png" class="pict2section2" />
-        <img src="img/img4.png" class="pict3section2" />
+        <div class="flexpict-23">
+          <img src="img/img3.png" class="pict2section2" />
+          <img src="img/img4.png" class="pict3section2" />
+        </div>
       </div>
     </section>
     <section id="section3">
@@ -81,8 +109,6 @@
         </h1>
       </div>
       <div class="flex1section4">
-        <img src="img/img6.png" class="pict1section4" />
-        <img src="img/img7.png" class="pict2section4" />
         <div class="blocktextsection4">
           <div class="text2section4">
             <h1>Exquisite Salmon Delicacies</h1>
@@ -97,6 +123,8 @@
             </p>
           </div>
         </div>
+        <img src="img/img6.png" class="pict1section4" />
+        <img src="img/img7.png" class="pict2section4" />
       </div>
       <div class="flex2section4">
         <img src="img/img8.png" class="pict3section4" />
@@ -109,7 +137,6 @@
         <h1>Fresh seafood soups</h1>
       </div>
       <div class="flex1section5">
-        <img src="img/img11.png" class="pict1section5" />
         <div class="text2section5">
           <p>
             Our seafood chowder is a symphony of flavors and fragrances<br />
@@ -118,11 +145,10 @@
             unforgettable gustatory journey.
           </p>
         </div>
+        <img src="img/img11.png" class="pict1section5" />
         <img src="img/img12.png" class="pict2section5" />
       </div>
       <div class="flex2section5">
-        <img src="img/img13.png" class="pict3section5" />
-        <img src="img/img14.png" class="pict4section5" />
         <div class="blocktextsection5">
           <div class="text3section5">
             <h1>Full menu</h1>
@@ -137,15 +163,19 @@
             </p>
           </div>
         </div>
+        <img src="img/img13.png" class="pict3section5" />
+        <img src="img/img14.png" class="pict4section5" />
       </div>
     </section>
     <section id="section6">
-      <div class="text1section6">
-        <h1>
-          In our venue, we maintain a coastal ambiance with<br />
-          traditional IVORIAN elements like ivorian prints<br />
-          tissues walls and wood lighting fixtures.
-        </h1>
+      <div class="flextextsection6">
+        <div class="text1section6">
+          <h1>
+            In our venue, we maintain a coastal ambiance with<br />
+            traditional IVORIAN elements like ivorian prints<br />
+            tissues walls and wood lighting fixtures.
+          </h1>
+        </div>
       </div>
       <div class="flex1section6">
         <img src="img/img15.png" class="pict1section6" />
@@ -165,22 +195,30 @@
       </div>
     </section>
     <section id="section7">
-      <div class="inline1section7">
-        <h1>We buy our products only from</h1>
-        <img src="img/img25.png" class="pict1section7" />
-        <h1>trusted</h1>
-      </div>
-      <div class="inline2section7">
-        <h1>suppliers in ACCRA to guarantee</h1>
-        <img src="img/img26.png" class="pict2section7" />
-        <h1>the</h1>
-      </div>
-      <div class="inline3section7">
-        <h1>highest quality of</h1>
-        <img src="img/img27.png" class="pict3section7" />
-        <h1>our dishes.</h1>
-      </div>
-      <a class="visit-button" href="https://goo.gl/maps/Z4qvWbQgMPnYBWbF8"target="_blank">Visit our restaurant</a>
+      <div class="flexsection7">
+        <div class="inline1section7">
+          <h1>We buy our products only from</h1>
+          <img src="img/img25.png" class="pict1section7" />
+          <h1>trusted</h1>
+        </div>
+        <div class="inline2section7">
+          <h1>suppliers in ACCRA to guarantee</h1>
+          <img src="img/img26.png" class="pict2section7" />
+          <h1>the</h1>
+        </div>
+        <div class="inline3section7">
+          <h1>highest quality of</h1>
+          <img src="img/img27.png" class="pict3section7" />
+          <h1>our dishes.</h1>
+        </div>
+        <div class="visit-button-container">
+          <a
+            class="visit-button"
+            href="https://goo.gl/maps/Z4qvWbQgMPnYBWbF8"
+            target="_blank"
+            >Visit our restaurant</a
+          >
+        </div>
       </div>
     </section>
     <section id="section8">
@@ -189,42 +227,51 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        class="map"
-      >
+        class="map">
       </iframe>
     </section>
     <footer>
-      <div class="blockfooter">
-        <div class="block1footer">
-          <a href="#section1" class="footer-logo">NSUOMNAM</a>
-          <p class="text1footer">10:45AM<br />E138°00'N36°00'</p>
-        </div>
-        <div class="block2footer">
-          <a href="#section2">History</a>
-          <a href="#section4">Menu</a>
-          <a href="#section6">Trim</a>
-          <a href="#section7">Map</a>
-        </div>
-        <div class="block3footer">
-          <a href="https://www.instagram.com" target="_blank">Instagram</a>
-          <a href="https://www.telegram.org" target="_blank">Telegram</a>
-          <a href="https://www.youtube.com" target="_blank">Youtube</a>
-          <a href="https://www.twitter.com" target="_blank">Twitter</a>
-        </div>
-        <div class="footer-extra">
-          <div class="shoppingcartbuttonfooter">
-            <a class="shoppingcart-footer" href="#Shopping Cart"
-              >Shopping Cart</a
-            >
-            <a class="cartnumber-footer">0</a>
+      <div class="flexfooter">
+        <div class="flexfooter1">
+          <div class="flex1footer">
+            <a href="#section1" class="footer-logo">NSUOMNAM</a>
+            <p class="text1footer">10:45AM<br />E138°00'N36°00'</p>
           </div>
-          <img src="img/cartcircle.png" class="cartcircle-footer" />
-          <p class="text2footer">
-            Thank you for choosing<br />Emperor Restaurant
-          </p>
+          <div class="flex2footer">
+            <a href="#section2">History</a>
+            <a href="#section4">Menu</a>
+            <a href="#section6">Trim</a>
+            <a href="#section7">Map</a>
+          </div>
+          <div class="flex3footer">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.telegram.org" target="_blank">Telegram</a>
+            <a href="https://www.youtube.com" target="_blank">Youtube</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+          </div>
+          <div class="flex4footer">
+            <div class="footer-sc">
+              <div class="footer-container">
+                <a
+                  class="footer-sc-text"
+                  href="https://goo.gl/maps/Z4qvWbQgMPnYBWbF8"
+                  target="_blank"
+                  >Shopping Cart</a
+                >
+                <a class="footer-sc-number">0</a>
+                <img class="footer-sc-circle" src="img/cartcircle.png" />
+              </div>
+            </div>
+            <p class="text2footer">
+              Thank you for choosing<br />Emperor Restaurant
+            </p>
+          </div>
+        </div>
+        <div class="flexfooter2">
+          <img src="img/img1.png" class="pict1footer" />
         </div>
       </div>
-      <img src="img/img1.png" class="pict1footer" />
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
