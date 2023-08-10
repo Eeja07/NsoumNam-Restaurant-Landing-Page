@@ -4,8 +4,8 @@
 
 NsuomNam is seafood and fish restaurant based on Ghana.
 
-- Build using HTML5 and CSS3.
-- Responsive for desktop, mobile phone, or tablets.
+- Build using HTML5, CSS3, and JS.
+- Responsive for all devices.
 
 ## Demo
 
